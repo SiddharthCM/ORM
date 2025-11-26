@@ -33,7 +33,7 @@ Apply the migration files of the created app to the database
 Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
-"""
+~~~
 models.py
 
 class Amazon(models.Model):
@@ -56,7 +56,7 @@ from django.contrib import admin
 from .models import (Amazon,AmazonAdmin)
 admin.site.register(Amazon,AmazonAdmin)
 
-"""
+~~~
 
 
 ## OUTPUT
